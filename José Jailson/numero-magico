@@ -1,0 +1,10 @@
+escreva "meu primeiro jogo"
+escreva "este jogo tenta adivinhar um numero magico"
+escreva "qual é o seu nome?"
+nome = leia_texto
+escreva Bem vindo "{nome}"
+magico = aleatorio (1,5)
+escreva "qual o seu palpite entre 1 e 5?"
+numero = leia_texto
+escreva "{nome}", seu numero foi "{numero}"
+escreva "meu numero magico foi {magico}"
