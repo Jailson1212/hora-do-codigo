@@ -1,0 +1,9 @@
+escreva "Qual o seu nome ?"
+var nome := leia_texto
+escreva "Qual o valor do seu salário fixo ?"
+var salário := leia_real
+escreva "quanto você vendeu em peças ?"
+var comissão := leia_real
+var salário_liquido := (comissão/100) * 15
+var salário_total := (salário_liquido + salário)
+escreva " o seu salário é {salário_total.arredonde(2)}"

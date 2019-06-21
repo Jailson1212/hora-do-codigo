@@ -1,0 +1,15 @@
+escreva " quantos números terá a sequência ?"
+var n := leia_inteiro
+escreva "escreva {n} números"
+var números := leia_inteiros(" ")
+
+para indice de 1 até n faça
+    escreva" números [{indice}] = {números[indice]}"
+    fim
+
+
+
+
+
+
+
